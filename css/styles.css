@@ -6,7 +6,7 @@ img {
 }
 .isabella {
 background-image: url("../images/matiaejofillo.jpg");
-height: 500px;
+height: 380px;
 background-size: cover;
 position: relative;
 }
@@ -19,7 +19,43 @@ position: relative;
 
 #isa {
   position: absolute;
-    bottom: 160px;
+    bottom: 70px;
     right: 520px;
     color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #DCDCDC;
+}
+.photogr {
+  height: 350px;
+  width: 450px;
+}
+h2 {
+  font-size: 50px;
+  font-family: "Bell MT";
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+  font-family: "Bell MT";
 }
